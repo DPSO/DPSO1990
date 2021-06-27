@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DPSO">
+    <Package name="Variants_CUP">
+        <Key ID="STR_DPSO_Variants_CUP_C130J_DPSO_Name">
+            <English>C-130J</English>
+        </Key>
+        <Key ID="STR_DPSO_Variants_CUP_C130J_DPSO_Texture_Name">
+            <English>DPSO Grey</English>
+        </Key>
+        <Key ID="STR_DPSO_Variants_CUP_C130J_Author">
+            <English>GilleeDoo, TyroneMF</English>
+        </Key>
+    </Package>
+</Project>
