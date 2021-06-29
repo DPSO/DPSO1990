@@ -16,7 +16,16 @@ class CfgPatches {
             
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+        requiredAddons[] = {
+			"a3_data_f",
+			"cba_main",
+			"ace_main",
+            "A3_Characters_F",
+            "ace_nouniformrestrictions",
+            "A3_Data_F",
+            "A3_Data_F_Curator",
+            "cba_xeh"
+		};
         author = AUTHOR;
         authors[] = {"YonV"};
         url = URL;

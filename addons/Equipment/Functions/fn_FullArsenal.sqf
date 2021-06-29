@@ -50,6 +50,14 @@ _ArsenalType = call {
 	if (_Type isEqualTo "DPSO1990") exitwith {
         _AvailableItems = [
             "gm_radio_sem52a",
+            "Item_Toolkit",
+            "ACE_VectorDay",
+            "ACE_Vector",
+            "ItemCompass",
+            "DPSO_FirstAid",
+            "DPSO_MedicArea",
+            "DPSO_MedicKit",
+            "ALIVE_Tablet",
             "kat_aatKit",
             "kat_accuvac",
             "ACE_adenosine",
@@ -72,7 +80,6 @@ _ArsenalType = call {
             "kat_bloodIV_AB_500",
             "kat_bloodIV_B_500",
             "ACE_bodyBag",
-            "gm_ge_army_burnBandage",
             "kat_chestSeal",
             "ACE_EarPlugs",
             "ACE_epinephrine",
@@ -126,7 +133,6 @@ _ArsenalType = call {
             "ACE_SpraypaintGreen",
             "ACE_SpraypaintRed",
             "ACE_Tripod",
-            "gm_repairkit_01",
             "TRU_antenna_blade",
             "TRU_antenna_whip",
             "TRU_antenna_mixed",
@@ -139,6 +145,10 @@ _ArsenalType = call {
         ];
 
         _AvailableHeadgear = [
+            "H_PilotHelmetHeli_B",
+            "H_PilotHelmetHeli_I_E",
+            "H_CrewHelmetHeli_B",
+            "H_CrewHelmetHeli_I_E",
             "CUP_H_PASGTv2_WDL",
             "CUP_H_PASGTv2_NVG_WDL_CF",
             "CUP_H_PASGTv2_NVG_WDL_GG_CB",
@@ -197,6 +207,10 @@ _ArsenalType = call {
         ];
 
         _AvailableUniforms = [
+            "U_B_HeliPilotCoveralls",
+            "CUP_U_B_CZ_Pilot_WDL",
+            "CUP_U_B_GER_Fleck_Overalls_Pilot",
+            "U_I_E_Uniform_01_coveralls_F",
             "CUP_U_B_BDUv2_CEU",
             "CUP_U_B_BDUv2_dirty_CEU",
             "CUP_U_B_BDUv2_gloves_CEU",
@@ -296,6 +310,13 @@ _ArsenalType = call {
         ];
 
         _AvailableBackpacks = [
+            "CUP_B_Kombat_Olive",
+            "CUP_O_RUS_Patrol_bag_Green",
+            "CUP_O_RUS_Patrol_bag_Summer",
+            "CUP_O_RUS_Patrol_bag_Winter",
+            "CUP_O_RUS_Patrol_bag_BeigeDigital",
+            "dpso_TFAR_Kombat",
+            "dpso_TFAR_PRC155_PACK",
             "CUP_B_AlicePack_Bedroll",
             "CUP_B_AlicePack_Khaki",
             "CUP_B_AlicePack_OD",
@@ -308,9 +329,6 @@ _ArsenalType = call {
             "ace_gunbag",
             "ace_gunbag_Tan",
             "B_CombinationUnitRespirator_01_F",
-            "TRU_PRC119_Blade_Fld",
-            "TRU_PRC119_Mixed",
-            "TRU_PRC119_Whip_Ret",
             "B_SCBA_01_F",
             "ACE_NonSteerableParachute",
             "gm_backpack_rs9_parachute",
@@ -318,6 +336,8 @@ _ArsenalType = call {
         ];
 
         _AvailableAttachments = [
+            "gm_feroz24_blk",
+            "gm_feroz24_des",
             "CUP_optic_ACOG_Reflex_Wood",
             "CUP_optic_ACOG_Reflex_Desert",
             "CUP_optic_ACOG",
@@ -499,6 +519,12 @@ _ArsenalType = call {
         ];
 
         _AvailableMagazines = [
+            "gm_30Rnd_9x19mm_B_DM51_mp5_blk",
+            "gm_30Rnd_9x19mm_B_DM11_mp5_blk",
+            "gm_30Rnd_9x19mm_B_DM51_mp5a3_blk",
+            "gm_30Rnd_9x19mm_B_DM11_mp5a3_blk",
+            "gm_30Rnd_9x19mm_AP_DM91_mp5_blk",
+            "gm_30Rnd_9x19mm_AP_DM91_mp5a3_blk",
             "CUP_arifle_M16A1",
             "gm_m16a1_blk",
             "CUP_arifle_M16A1GL",
@@ -1029,6 +1055,10 @@ _ArsenalType = call {
         ];
 
         _AvailableWeapons = [
+            "gm_mp5a2_blk",
+            "gm_mp5a3_blk",
+            "gm_mp5sd2_blk",
+            "gm_mp5sd3_blk",
             "CUP_arifle_M16A1",
             "gm_m16a1_blk",
             "CUP_arifle_M16A1GL",

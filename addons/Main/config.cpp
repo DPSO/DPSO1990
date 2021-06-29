@@ -31,4 +31,4 @@ class cfgPatches {
 #include "CfgVehicleIcons.hpp"
 #include "CfgWorlds.hpp"
 #include "CfgMarkers.hpp"
-#include "radio.hpp"
+//#include "radio.hpp"

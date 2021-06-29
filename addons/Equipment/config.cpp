@@ -7,7 +7,10 @@ class CfgPatches
 		author = AUTHOR;
         name = COMPONENT_NAME;
 		url = URL;
-		units[] = {};
+		units[] = {
+            "dpso_TFAR_PRC155_PACK",
+            "dpso_TFAR_Kombat"
+        };
         weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
@@ -29,6 +32,7 @@ class CfgFunctions {
 
 #include "cfg3Den.hpp"
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
 
 
 class Extended_InitPost_EventHandlers {

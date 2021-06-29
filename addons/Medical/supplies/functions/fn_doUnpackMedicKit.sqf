@@ -80,6 +80,9 @@ if (isNull _unit) exitWith {};
 			[_unit, "kat_guedel",			06, _order, _overflow] call DPSO_fnc_addItem;
 			[_unit, "ACE_splint",			08, _order, _overflow] call DPSO_fnc_addItem;
 			[_unit, "kat_aatKit",			04, _order, _overflow] call DPSO_fnc_addItem;
+			[_unit, "ACE_SterileGauze",		04, _order, _overflow] call DPSO_fnc_addItem;
+			[_unit, "Empty_bloodIV_250",	04, _order, _overflow] call DPSO_fnc_addItem;
+			[_unit, "Empty_bloodIV_500",	02, _order, _overflow] call DPSO_fnc_addItem;
 
 		} else {
 			[_unit, "ACE_fieldDressing",	8, _order, _overflow] call DPSO_fnc_addItem;
@@ -94,7 +97,7 @@ if (isNull _unit) exitWith {};
 		_unit playActionNow "Stand";
 		
 	};
-	
+
 	if (DPSO_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
 		
 		[_unit, "DPSO_Medical_MedicKit_Open_1"] call DPSO_fnc_stop3dSound;

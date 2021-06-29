@@ -41,7 +41,7 @@ class CfgDifficultyPresets {
 			vonID = 0;				// VON ID				(0 = disabled, 1 = enabled)
 
 			// Misc
-			mapContent = 1;			// Extended map content (0 = disabled, 1 = enabled) // before Arma 3 v1.68
+			mapContent = 0;			// Extended map content (0 = disabled, 1 = enabled) // before Arma 3 v1.68
 			mapContentFriendly = 0;	// Map friendlies		(0 = disabled, 1 = enabled) // since  Arma 3 v1.68
 			mapContentEnemy = 0;	// Map Enemies			(0 = disabled, 1 = enabled) // since  Arma 3 v1.68
 			mapContentMines = 0;	// Map Mines			(0 = disabled, 1 = enabled) // since  Arma 3 v1.68

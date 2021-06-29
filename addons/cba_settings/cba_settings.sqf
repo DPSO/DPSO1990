@@ -239,11 +239,11 @@ force force ace_nametags_showCursorTagForVehicles = false;
 force force ace_nametags_showNamesForAI = false;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur =0;
+force force ace_nightvision_aimDownSightsBlur =1;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0;
-force force ace_nightvision_fogScaling = 0;
-force force ace_nightvision_noiseScaling = 0;
+force force ace_nightvision_effectScaling = 1;
+force force ace_nightvision_fogScaling = 1;
+force force ace_nightvision_noiseScaling = 1;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -408,7 +408,6 @@ force force acex_viewrestriction_modeSelectiveLand = 0;
 force force acex_viewrestriction_modeSelectiveSea = 0;
 force force acex_viewrestriction_preserveView = true;
 
-
 // AI
 force force cfp_autoEquipNVG = true;
 
@@ -546,7 +545,6 @@ force force DPSO_bodybag_destroyChance = 20;
 // DPSO Pointing
 force force DPSO_pointing_vehicleEnabled = true;
 
-
 // DPSO Respawn
 force force DPSO_respawn_enabled = true;
 force force DPSO_respawn_time = 06;
@@ -563,6 +561,19 @@ force DPSO_Zeus_Module_AISpawnsIndep = true;
 force DPSO_Zeus_Module_AISpawnsWest = true;
 force DPSO_Zeus_Module_CivilianSpawns = true;
 force DPSO_Zeus_Module_SafeZone = true;
+
+// Extended Jamming
+force force dzn_EJAM_dud_ChanceSettings = 30;
+force force dzn_EJAM_fail_to_eject_ChanceSettings = 20;
+force force dzn_EJAM_fail_to_extract_ChanceSettings = 20;
+force force dzn_EJAM_feed_failure_2_ChanceSettings = 20;
+force force dzn_EJAM_feed_failure_ChanceSettings = 30;
+force force dzn_EJAM_Force = true;
+force force dzn_EJAM_ForceOverallChance = true;
+force force dzn_EJAM_MappingSettings = "[""arifle_MX_F"",0.05,45,10,45,0,0]";
+force force dzn_EJAM_OverallChanceSetting = 0.01;
+force force dzn_EJAM_SubsonicJamEffectSetting = "20";
+force force dzn_EJAM_SubsonicMagazinesSettings = """cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
@@ -596,6 +607,7 @@ force force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 force force kat_airway_Accuvac_time = 8;
 force force kat_airway_CheckAirway_time = 2;
 force force kat_airway_checkbox_puking_sound = true;
+force force kat_airway_Colored_logs = true;
 force force kat_airway_deathTimer = 1250;
 force force kat_airway_enable = true;
 force force kat_airway_Guedeltubus_time = 6;
@@ -626,8 +638,8 @@ force force kat_breathing_Stable_spo2 = 80.25;
 // KAT - ADV Medical: Circulation
 kat_circulation_bloodgroup = "B";
 force force kat_circulation_CPR_Chance_Default = 20;
-force force kat_circulation_CPR_Chance_Doctor = 40;
-force force kat_circulation_CPR_Chance_RegularMedic = 30;
+force force kat_circulation_CPR_Chance_Doctor = 60;
+force force kat_circulation_CPR_Chance_RegularMedic = 45;
 force force kat_circulation_DeactMon_whileAED_X = true;
 force force kat_circulation_distanceLimit_AEDX = 30;
 force force kat_circulation_enable = true;
@@ -636,12 +648,10 @@ force force kat_circulation_medLvl_AED_X = 1;
 force force kat_circulation_SuccesCh_AED = 80;
 force force kat_circulation_SuccesCh_AED_X = 85;
 force force kat_circulation_timeLimit_AEDX = 1800;
-force force kat_circulation_Tourniquet_time = 7;
 force force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: Misc
 force force kat_misc_enable = true;
-
 
 // LAMBS Danger
 force force lambs_danger_combatShareRange = 250;

@@ -6,7 +6,7 @@ mainprefix = "z"
 folder_optionals = true
 sig_version = 3
 
-les = [
+files = [
     "mod.cpp",
     "README.md",
     "LICENSE.md",
@@ -18,19 +18,18 @@ les = [
     "extras/keys"
     ]
 
-
 exclude = ["*.psd", "*.png", "*.tga"]
 
 
 modname = "{{name}}"
-key_name = "{{prefix}}_{{version}}"
-authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+key_name = "{{prefix}}1990_{{version}}"
+authority = "{{prefix}}1990_{{version}}-{{git \"id 8\"}}"
 
 check = [
     "!version_set"
 ]
 releasebuild = [
-    "@zip DPSO_v{{semver.major}}.{{semver.minor}}.{{semver.patch}}.{{semver.build}}",
+    "@zip DPSO1990_v{{semver.major}}.{{semver.minor}}.{{semver.patch}}.{{semver.build}}",
     "!version_unset"
 ]
 
@@ -54,10 +53,4 @@ steps_windows = [
     "echo -^> README.md version ready for commit (ignore until release)!"
 ]
 only_release = true
-show_output = true
-
-[scripts.Publish]
-    steps_windows = [
-        "powershell ./tools/Publish.ps1 {{version}} 1675214293 '@dpso'"
-]
 show_output = true
